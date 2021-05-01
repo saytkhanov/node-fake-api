@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Адам"
+    },
+    {
+      "id": 2,
+      "name": "Дени"
+    },
+    {
+      "id": 3,
+      "name": "Хамза"
+    }
+  ],
+
+  "words": [
+    {
+      "id": 1,
+      "word": "intocode"
+    },
+    {
+      "id": 2,
+      "word": "javascript"
+    },
+    {
+      "id": 3,
+      "word": "fileSystem"
+    },
+    {
+      "id": 4,
+      "word": "require"
+    }
+  ]
+}
