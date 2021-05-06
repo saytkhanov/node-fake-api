@@ -47,9 +47,7 @@ const server = http.createServer((req, res) => {
         //опять же повторяем использование переменных, и также создаем новую переменную для функции который добавляет id в соответствии с наибольшим id  базе данных
         const parse = parseQuery(req.url);
         const i = getNextId(data[parse.resourse], parse.id);
-        res.writeHead(200, {
-          "Content-type": "application/json",
-        });
+        res.writeHead(200);
         req.on("data", (chunk) => {
           // обработчик событий, читающее содержимое запроса
           chunk = JSON.parse(chunk); //данные парсим
