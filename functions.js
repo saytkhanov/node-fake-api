@@ -32,6 +32,8 @@ const parseQuery = string => {//пишем функцию,которая буд�
   }
 }
 
-module.exports.getIndexById = getIndexById;
-module.exports.getNextId = getNextId;
-module.exports.parseQuery = parseQuery;
+module.exports = {
+  getIndexById,
+  getNextId,
+  parseQuery
+}
