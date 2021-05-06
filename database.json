@@ -1,1 +1,102 @@
-{"users":[{"word":"nine","id":1},{"word":"nine","id":2},{"word":"none","id":3},{"joke":"f","id":4},{"joke":"saf","id":5},{"joke":"saf","id":6},{"joke":"saf","id":7},{"joke":"saf","id":8},{"joke":"saf","id":9},{"joke":"saf","id":10},{"joke":"af","id":11}],"words":[{"id":4,"word":"require"},{"word":"nine","id":1},{"word":"nune","id":2},{"word":"nine","id":3},{"word":"nine","id":4},{"word":"nine","id":5},{"word":"none","id":6},{"word":"nyne","id":7},{"word":"nyne","id":8},{"joke":"f","id":11},{"joke":"f","id":12},{"joke":"f","id":13},{"joke":"ff","id":14},{"joke":"ff","id":15}]}
+{
+ "users": [
+  {
+   "word": "nine",
+   "id": 1
+  },
+  {
+   "word": "nine",
+   "id": 2
+  },
+  {
+   "word": "none",
+   "id": 3
+  },
+  {
+   "joke": "f",
+   "id": 4
+  },
+  {
+   "joke": "saf",
+   "id": 5
+  },
+  {
+   "joke": "saf",
+   "id": 6
+  },
+  {
+   "joke": "saf",
+   "id": 7
+  },
+  {
+   "joke": "saf",
+   "id": 8
+  },
+  {
+   "joke": "saf",
+   "id": 9
+  },
+  {
+   "joke": "saf",
+   "id": 10
+  },
+  {
+   "joke": "af",
+   "id": 11
+  }
+ ],
+ "words": [
+  {
+   "id": 4,
+   "word": "require"
+  },
+  {
+   "word": "nine",
+   "id": 1
+  },
+  {
+   "word": "nune",
+   "id": 2
+  },
+  {
+   "word": "nine",
+   "id": 3
+  },
+  {
+   "word": "nine",
+   "id": 4
+  },
+  {
+   "word": "nine",
+   "id": 5
+  },
+  {
+   "word": "none",
+   "id": 6
+  },
+  {
+   "word": "nyne",
+   "id": 7
+  },
+  {
+   "word": "nyne",
+   "id": 8
+  },
+  {
+   "joke": "f",
+   "id": 11
+  },
+  {
+   "joke": "f",
+   "id": 12
+  },
+  {
+   "joke": "f",
+   "id": 13
+  },
+  {
+   "joke": "ff",
+   "id": 14
+  }
+ ]
+}

@@ -37,7 +37,7 @@ const server = http.createServer((req, res) => {
         const parse = parseQuery(req.url); //опять добавляем переменную
         const index = getIndexById(data[parse.resourse], parse.id);
         data[parse.resourse].splice(index, 1); //берем данные и используем метод splice для удаления
-        fs.writeFile(fileName, JSON.stringify(data), (err, data) => {
+        fs.writeFile(fileName, JSON.stringify(data, null, ' '), (err, data) => {
           //перезаписываем файл
           res.end("Удаление прошло успешно"); // в случае успеха выводим текст
         });
@@ -78,7 +78,7 @@ const server = http.createServer((req, res) => {
             data[parse.resourse][index],
             update
           ); //объединение старого и нового значения, для этого используем Object.assign по подсказке Aхмеда
-          fs.writeFile(fileName, JSON.stringify(data, null, " "), (err) => {
+          fs.writeFile(fileName, JSON.stringify(data, null, ' '), (err) => {
             if (err) {
               res.writeHead(404);
               res.write("Ошибка запроса");
